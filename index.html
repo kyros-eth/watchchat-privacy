@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Watch Chat — Privacy Policy</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&display=swap');
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --red: #E50914;
+    --dark: #0a0a0a;
+    --text: #e5e5e5;
+    --muted: #888;
+    --border: rgba(255,255,255,0.08);
+    --card: #141414;
+  }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--dark);
+    color: var(--text);
+    line-height: 1.7;
+    padding: 0;
+  }
+
+  /* Header */
+  header {
+    background: #060606;
+    border-bottom: 1px solid var(--border);
+    padding: 24px 40px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .logo {
+    font-size: 22px;
+    font-weight: 700;
+    color: var(--red);
+    letter-spacing: 2px;
+  }
+
+  .logo-sep {
+    color: var(--border);
+    font-size: 20px;
+  }
+
+  .logo-sub {
+    font-size: 14px;
+    color: var(--muted);
+    font-weight: 400;
+  }
+
+  /* Main content */
+  main {
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 60px 40px 80px;
+  }
+
+  .page-title {
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  .last-updated {
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 48px;
+  }
+
+  .intro {
+    font-size: 17px;
+    color: rgba(255,255,255,0.65);
+    font-weight: 300;
+    margin-bottom: 48px;
+    padding: 24px 28px;
+    background: var(--card);
+    border-left: 3px solid var(--red);
+    border-radius: 0 8px 8px 0;
+    line-height: 1.7;
+  }
+
+  h2 {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-top: 48px;
+    margin-bottom: 16px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid var(--border);
+  }
+
+  p {
+    font-size: 15px;
+    color: rgba(255,255,255,0.65);
+    margin-bottom: 16px;
+    font-weight: 300;
+  }
+
+  ul {
+    margin: 0 0 16px 0;
+    padding-left: 0;
+    list-style: none;
+  }
+
+  li {
+    font-size: 15px;
+    color: rgba(255,255,255,0.65);
+    font-weight: 300;
+    padding: 6px 0 6px 20px;
+    position: relative;
+  }
+
+  li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 14px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--red);
+  }
+
+  strong { color: white; font-weight: 500; }
+
+  .highlight-box {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 20px 24px;
+    margin: 24px 0;
+  }
+
+  .highlight-box p {
+    margin: 0;
+    font-size: 15px;
+    color: rgba(255,255,255,0.6);
+  }
+
+  .contact-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    padding: 24px 28px;
+    margin-top: 24px;
+  }
+
+  .contact-card a {
+    color: var(--red);
+    text-decoration: none;
+  }
+
+  .contact-card a:hover { text-decoration: underline; }
+
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 32px 40px;
+    text-align: center;
+    font-size: 13px;
+    color: var(--muted);
+  }
+
+  footer span { color: var(--red); }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">WATCH CHAT</div>
+  <div class="logo-sep">|</div>
+  <div class="logo-sub">Privacy Policy</div>
+</header>
+
+<main>
+  <h1 class="page-title">Privacy Policy</h1>
+  <div class="last-updated">Last updated: March 2026</div>
+
+  <div class="intro">
+    Watch Chat is a Chrome extension that adds real-time chat to Netflix, synced to your exact movie timestamp. We built this to help people connect while watching — and we take your privacy seriously. This policy explains exactly what we collect, why, and how.
+  </div>
+
+  <h2>What We Collect</h2>
+  <p>Watch Chat collects only the minimum data needed to make the chat work:</p>
+  <ul>
+    <li><strong>Chat messages</strong> — the text you type in the Watch Chat panel. These are stored in our Firebase database and tied to a movie title and timestamp.</li>
+    <li><strong>Anonymous user ID</strong> — a randomly generated ID created when you first use the extension. This is not linked to your name, email, or Netflix account.</li>
+    <li><strong>Username</strong> — a randomly generated display name (e.g. "CosmicSoul540") stored locally on your device. You can change this anytime.</li>
+    <li><strong>Movie title and playback timestamp</strong> — read from the Netflix page to determine which chat room to place you in. This is never stored permanently.</li>
+  </ul>
+
+  <h2>What We Do NOT Collect</h2>
+  <div class="highlight-box">
+    <p>We do <strong>not</strong> collect your name, email address, Netflix account details, payment information, browsing history, location, or any other personal information.</p>
+  </div>
+
+  <h2>How We Use Your Data</h2>
+  <p>The data we collect is used only for one purpose — to make Watch Chat work:</p>
+  <ul>
+    <li>Chat messages are displayed to other users watching the same scene at the same timestamp</li>
+    <li>Your anonymous ID is used to identify your messages in the chat so you can see which ones are yours</li>
+    <li>The movie title and timestamp are used to place you in the correct chat room</li>
+  </ul>
+
+  <h2>Data Storage</h2>
+  <p>Chat messages are stored in <strong>Google Firebase Realtime Database</strong>, hosted in the United States. Messages are retained to allow future viewers to see reactions from previous watchers. We do not sell, rent, or share this data with any third parties.</p>
+
+  <h2>Third Party Services</h2>
+  <p>Watch Chat uses the following third party services:</p>
+  <ul>
+    <li><strong>Google Firebase</strong> — for real-time database and anonymous authentication. Firebase's privacy policy applies: <a href="https://firebase.google.com/support/privacy" style="color:#E50914">firebase.google.com/support/privacy</a></li>
+  </ul>
+
+  <h2>Your Rights</h2>
+  <p>Since all data is stored anonymously and not linked to your identity, we cannot identify or retrieve your specific data. If you wish to stop using Watch Chat, simply uninstall the extension from Chrome. Your anonymous session will be removed from our database automatically.</p>
+
+  <h2>Children's Privacy</h2>
+  <p>Watch Chat is not directed at children under 13. We do not knowingly collect data from children. If you believe a child has used this extension, please contact us and we will take appropriate action.</p>
+
+  <h2>Changes to This Policy</h2>
+  <p>We may update this privacy policy from time to time. Any changes will be posted on this page with an updated date. Continued use of Watch Chat after changes constitutes acceptance of the updated policy.</p>
+
+  <h2>Contact</h2>
+  <div class="contact-card">
+    <p style="margin-bottom:8px">If you have any questions about this privacy policy or how Watch Chat handles your data, contact us:</p>
+    <p style="margin:0">Twitter: <a href="https://twitter.com/0xKyros">@0xKyros</a></p>
+  </div>
+
+</main>
+
+<footer>
+  © 2026 <span>Watch Chat</span> · Built by @0xKyros · The social layer Netflix forgot.
+</footer>
+
+</body>
+</html>
